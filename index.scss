@@ -1,0 +1,55 @@
+.home {
+    width: 1728px;
+    height: 4217px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: 0 auto;
+
+    &__img {
+        width: 1728px;
+        height: 1117px;
+        position: relative;
+
+
+    }
+
+    &__navbar {
+        width: 1728px;
+        height: 150px;
+        display: flex;
+        margin: 0 auto;
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+
+
+
+        &__left {
+            width: 864px;
+            display: flex;
+            justify-content: space-around;
+            margin: 25px 107px;
+
+            p {
+                font-size: 24px;
+                font-family: Montserrat;
+                font-weight: 400;
+                color: #FFFFFF;
+            }
+        }
+
+        &__right {
+            width: 864px;
+            margin-right: 100px;
+            margin: 25px 100px;
+
+            p {
+                float: right;
+                font-size: 24px;
+                font-family: Montserrat;
+                font-weight: 400;
+                color: #FFFFFF;
+                
+            }
+        }
+    }
+}
